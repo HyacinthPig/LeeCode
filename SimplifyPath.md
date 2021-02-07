@@ -1,4 +1,4 @@
-SimplifyPath
+##SimplifyPath
 
 Given a string path, which is an absolute path (starting with a slash '/') to a file or directory in a Unix-style file system, convert it to the simplified canonical path.
 
@@ -12,7 +12,7 @@ The path does not end with a trailing '/'.
 The path only contains the directories on the path from the root directory to the target file or directory (i.e., no period '.' or double period '..')
 Return the simplified canonical path.
 
-
+```
 import java.util.Stack;
 
 public class SimplifyPath {
@@ -40,3 +40,4 @@ public class SimplifyPath {
     }
 
 }
+```
